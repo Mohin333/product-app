@@ -1,6 +1,20 @@
 # ProductApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+This is a simple Angular application to display a list of products with detailed views using component-based architecture, routing, and service-based data fetching.
+
+# Project Setup
+
+install the dependencies:
+npm install -g @angular/cli
+
+create app using **ng new product-app**
+after creating app, initialize the git repo using git credentials.
+Clone the repo **https://github.com/Mohin333/product-app.git**
+
+Make the directory well structured and organized. 
+
+according to the given tasks, develop the application.
 
 ## Development server
 
@@ -12,48 +26,21 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+# Features:
+1. Component-based structure
+2. Display list of products
+3. View detailed product information
+4. Service with RxJS Observable for async data
+5. Routing and dynamic navigation
+
+# Technology stack:
+1. Angular
+2. RxJS
+3. HTML
+4. TypeScript
+   
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
