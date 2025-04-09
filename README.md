@@ -6,11 +6,17 @@ This is a simple Angular application to display a list of products with detailed
 # Project Setup
 
 install the dependencies:
+``` bash
 npm install -g @angular/cli
+```
 
-create app using **ng new product-app**
+create app using ``` bash
+ng new product-app
+```
 after creating app, initialize the git repo using git credentials.
-Clone the repo **https://github.com/Mohin333/product-app.git**
+Clone the repo ``` bash
+https://github.com/Mohin333/product-app.git
+```
 
 Make the directory well structured and organized. 
 
