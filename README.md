@@ -10,11 +10,13 @@ install the dependencies:
 npm install -g @angular/cli
 ```
 
-create app using ``` bash
+create app using 
+``` bash
 ng new product-app
 ```
 after creating app, initialize the git repo using git credentials.
-Clone the repo ``` bash
+Clone the repo using
+``` bash
 https://github.com/Mohin333/product-app.git
 ```
 
